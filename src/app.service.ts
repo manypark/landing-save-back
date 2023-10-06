@@ -21,6 +21,20 @@ export class AppService {
   async createUser( createUser:UserRegisterDto ) {
 
     try {
+
+      const ifUserExist = await this.getUserByEmail(createUser.email);
+
+      if( ifUserExist ) {
+
+        this.sendEmail( createUser.email );
+
+        return {
+          status  : 'false',
+          message : 'Usuario registrado correctamente'
+        };
+        
+      }
+
       const user = this.userRepository.create(createUser);
 
       const userCreate = await this.userRepository.save(user);
@@ -37,6 +51,12 @@ export class AppService {
       this.handleErrors( error );
     }
 
+  }
+
+  async getUserByEmail( email:string ) {
+    const user = await this.userRepository.findBy({ email: email });
+
+    return user;
   }
 
   async getUsers() {
@@ -88,7 +108,7 @@ export class AppService {
     const msg = {
       to      : [email],
       from    : 'manypark@live.com',
-      subject : 'Sending with SendGrid is Fun',
+      subject : 'Bienvenido a Beneverse LATAM 2023',
       html    : this.newHtmlEmail
     }
     
