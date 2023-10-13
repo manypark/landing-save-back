@@ -15,8 +15,8 @@ export class AppController {
   }
 
   @Post('send-email')
-  sendEmail() {
-    return this.appService.sendEmail();
+  sendEmail( @Body() sendEmailArray : any ) {
+    return this.appService.sendEmail(sendEmailArray.emails);
   }
 
   @Get()
