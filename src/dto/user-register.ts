@@ -17,4 +17,34 @@ export class UserRegisterDto {
 
     @IsString()
     lada:string;
+    
+    @IsString()
+    shoe:string;
+
+    @IsString()
+    food:string;
+
+    @IsString()
+    data_arrival:string;
+
+    @IsString()
+    data_return:string;
+
+    @IsString()
+    time_arrival:string;
+
+    @IsString()
+    time_return:string;
+
+    @IsString()
+    airline_arrival:string;
+
+    @IsString()
+    airline_return:string;
+
+    @IsString()
+    origen:string;
+
+    @IsString()
+    destiny:string;
 }
