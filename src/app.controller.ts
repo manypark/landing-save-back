@@ -19,6 +19,11 @@ export class AppController {
     return this.appService.sendEmail(sendEmailArray.emails);
   }
 
+  @Post('send-email-invite')
+  sendEmailInvite( @Body() sendEmailArray : any ) {
+    return this.appService.senEmailInvite(sendEmailArray.emails);
+  }
+
   @Get()
   getUsers() {
     return this.appService.getUsers();
