@@ -47,4 +47,7 @@ export class UserRegisterDto {
 
     @IsString()
     destiny:string;
+
+    @IsString()
+    activityToDo:string;
 }

@@ -53,4 +53,7 @@ export class UserRegister {
 
     @Column( 'text' )
     destiny:string;
+
+    @Column( 'text' )
+    activityToDo:string;
 }
