@@ -133,12 +133,12 @@ export class AppService {
           <p></p>
         </td>
       </tr>
-    </table><table class="wrapper" role="module" data-type="image" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="012592d1-375f-494f-8b45-5917de263668">
+    </table><table class="wrapper" role="module" data-type="image" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="123b6904-a2f4-4811-991c-c52da1156569">
       <tbody>
         <tr>
           <td style="font-size:6px; line-height:10px; padding:0px 0px 0px 0px;" valign="top" align="center">
             
-          <a href="https://www.beneverselatam2023.com/"><img class="max-width" border="0" style="display:block; color:#000000; text-decoration:none; font-family:Helvetica, arial, sans-serif; font-size:16px; max-width:100% !important; width:100%; height:auto !important;" width="600" alt="Beneverse latam 2023" data-proportionally-constrained="true" data-responsive="true" src="http://cdn.mcauto-images-production.sendgrid.net/6275debb81093cdb/7887eb33-b876-4370-8b08-451a4bce7680/1650x2550.jpg"></a></td>
+          <a href="https://www.beneverselatam2023.com/"><img class="max-width" border="0" style="display:block; color:#000000; text-decoration:none; font-family:Helvetica, arial, sans-serif; font-size:16px; max-width:100% !important; width:100%; height:auto !important;" width="600" alt="Beneverse Latam 2023" data-proportionally-constrained="true" data-responsive="true" src="http://cdn.mcauto-images-production.sendgrid.net/6275debb81093cdb/ea8d1407-6658-48be-8c25-165ea05c178d/792x1310.jpg"></a></td>
         </tr>
       </tbody>
     </table><table class="module" role="module" data-type="spacer" border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;" data-muid="072dfae7-6b51-4521-b96c-4acc9b34f651">
